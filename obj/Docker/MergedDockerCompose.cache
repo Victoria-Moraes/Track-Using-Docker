@@ -1,0 +1,7 @@
+services:
+  track-changes-docker:
+    build:
+      context: /Users/victoria/Projects/Track-Changes-Docker
+      dockerfile: Track-Changes-Docker/Dockerfile
+    image: trackchangesdocker
+version: '3.4'

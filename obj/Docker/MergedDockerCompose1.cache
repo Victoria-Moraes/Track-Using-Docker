@@ -1,0 +1,26 @@
+services:
+  track-changes-docker:
+    build:
+      context: /Users/victoria/Projects/Track-Changes-Docker
+      dockerfile: Track-Changes-Docker/Dockerfile
+      labels:
+        com.microsoft.created-by: visual-studio
+        com.microsoft.visual-studio.project-name: Track-Changes-Docker
+      target: base
+    container_name: Track-Changes-Docker
+    entrypoint: tail -f /dev/null
+    environment:
+      NUGET_FALLBACK_PACKAGES: ''
+    image: trackchangesdocker:dev
+    labels:
+      com.microsoft.visualstudio.debuggee.arguments: ' --additionalProbingPath /root/.nuget/packages  "/app/bin/Debug/net6.0/Track-Changes-Docker.dll"'
+      com.microsoft.visualstudio.debuggee.killprogram: /bin/sh -c "if PID=$$(pidof
+        dotnet); then kill $$PID; fi"
+      com.microsoft.visualstudio.debuggee.program: dotnet
+      com.microsoft.visualstudio.debuggee.workingdirectory: /app
+    tty: true
+    volumes:
+    - /Users/victoria/Projects/Track-Changes-Docker/Track-Changes-Docker:/app:rw
+    - /Users/victoria/vsdbg/vs2017u5:/remote_debugger:rw
+    - /Users/victoria/.nuget/packages:/root/.nuget/packages:ro
+version: '3.4'

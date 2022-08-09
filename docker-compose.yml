@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  track-changes-docker:
+    image: ${DOCKER_REGISTRY-}trackchangesdocker
+    build:
+      context: .
+      dockerfile: Track-Changes-Docker/Dockerfile

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "AdpoWVySmWXOTa6+UivgvVPbsjjSg+wiiORUa2AAz7WUXys3X1AGmtU2vcW/wqbVMK99m0+ZtX8sKWOU0vZQwA==",
+  "success": true,
+  "projectFilePath": "/Users/victoria/Projects/Track-Changes-Docker/Track-Changes-Docker/Track-Changes-Docker.csproj",
+  "expectedPackageFiles": [
+    "/Users/victoria/.nuget/packages/microsoft.netcore.platforms/2.0.0/microsoft.netcore.platforms.2.0.0.nupkg.sha512",
+    "/Users/victoria/.nuget/packages/syncfusion.compression.net.core/20.2.0.40/syncfusion.compression.net.core.20.2.0.40.nupkg.sha512",
+    "/Users/victoria/.nuget/packages/syncfusion.docio.net.core/20.2.0.40/syncfusion.docio.net.core.20.2.0.40.nupkg.sha512",
+    "/Users/victoria/.nuget/packages/syncfusion.licensing/20.2.0.40/syncfusion.licensing.20.2.0.40.nupkg.sha512",
+    "/Users/victoria/.nuget/packages/syncfusion.officechart.net.core/20.2.0.40/syncfusion.officechart.net.core.20.2.0.40.nupkg.sha512",
+    "/Users/victoria/.nuget/packages/system.text.encoding.codepages/4.4.0/system.text.encoding.codepages.4.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+/Users/victoria/Projects/Track-Changes-Docker/bin/Debug/Track-Changes-Docker.deps.json
+/Users/victoria/Projects/Track-Changes-Docker/bin/Debug/Track-Changes-Docker.runtimeconfig.json
+/Users/victoria/Projects/Track-Changes-Docker/bin/Debug/Track-Changes-Docker
+/Users/victoria/Projects/Track-Changes-Docker/bin/Debug/Track-Changes-Docker.dll
+/Users/victoria/Projects/Track-Changes-Docker/bin/Debug/Syncfusion.DocIO.Portable.dll
+/Users/victoria/Projects/Track-Changes-Docker/bin/Debug/Syncfusion.Compression.Portable.dll
+/Users/victoria/Projects/Track-Changes-Docker/bin/Debug/Syncfusion.OfficeChart.Portable.dll
+/Users/victoria/Projects/Track-Changes-Docker/bin/Debug/Syncfusion.Licensing.dll
+/Users/victoria/Projects/Track-Changes-Docker/bin/Debug/Track-Changes-Docker.pdb
+/Users/victoria/Projects/Track-Changes-Docker/obj/Debug/docker-compose.dcproj.AssemblyReference.cache
+/Users/victoria/Projects/Track-Changes-Docker/obj/Debug/docker-compose.dcproj.CoreCompileInputs.cache
+/Users/victoria/Projects/Track-Changes-Docker/obj/Debug/docker-compose.dcproj.CopyComplete
